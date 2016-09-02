@@ -13,4 +13,10 @@ class QueryBuilder {
     {
         return $this->connection->query("SELECT * FROM {$tableName}")->fetchAll(PDO::FETCH_CLASS);
     }
+
+    public function query($sql, $parameters)
+    {
+        return $this->connection->prepare($sql)->execute($parameters);
+    }
+
 }
