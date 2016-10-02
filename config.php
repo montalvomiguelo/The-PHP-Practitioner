@@ -2,7 +2,7 @@
 
 return [
     'database' => [
-        'name' => 'mytodo',
+        'name' => 'db/mytodo.sqlite',
         'username' => null,
         'password' => null,
         'connection' => 'sqlite:',

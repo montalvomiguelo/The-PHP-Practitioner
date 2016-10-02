@@ -1,5 +1,9 @@
 <?php
 
+namespace Acme;
+
+use Exception;
+
 class Router {
     protected $routes = [
         'GET' => [],

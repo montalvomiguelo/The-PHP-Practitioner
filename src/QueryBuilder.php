@@ -1,5 +1,9 @@
 <?php
 
+namespace Acme;
+
+use PDO;
+
 class QueryBuilder {
 
     protected $connection;

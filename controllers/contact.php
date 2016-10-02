@@ -1,3 +1,3 @@
 <?php
 
-include 'views/contact.php';
+include 'views/contact.tpl.php';

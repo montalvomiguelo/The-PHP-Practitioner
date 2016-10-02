@@ -1,5 +1,7 @@
 <?php
 
+namespace Acme;
+
 class Request {
     public static function uri()
     {
