@@ -1,5 +1,7 @@
 <?php
 
-$todos = $app['database']->fetchAll('todos');
+use Acme\App;
+
+$todos = App::get('database')->fetchAll('todos');
 
 include 'views/index.tpl.php';
